@@ -15,10 +15,19 @@ img {
 
 .items {
   display: flex;
+  gap: 52px;
+  margin-top: 32px;
 }
 
 .item {
   display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
 }
 
 /* - All items are centered on the page (horizontally, not vertically).
